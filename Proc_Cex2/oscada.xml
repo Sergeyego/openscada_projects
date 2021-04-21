@@ -3,7 +3,8 @@
     <!--
     This is the OpenSCADA configuration file.
     -->
-    <station id="WorkStation"><prm id="Workdir">/home/sergey/.openscada/Proc_Cex2</prm><prm id="TranslEnMan">0</prm><prm id="TranslDyn">0</prm><prm id="MessLev">1</prm><prm id="RdPrimCmdTr">0</prm><prm id="RdRestConnTm">10</prm><prm id="RdTaskPer">1</prm><prm id="RdStLevel">0</prm>
+    <station id="WorkStation">
+        <!--<prm id="Workdir">/home/sergey/.openscada/Proc_Cex2</prm><prm id="TranslEnMan">0</prm><prm id="TranslDyn">0</prm><prm id="MessLev">1</prm><prm id="RdPrimCmdTr">0</prm><prm id="RdRestConnTm">10</prm><prm id="RdTaskPer">1</prm><prm id="RdStLevel">0</prm>-->
 	<!--
 	Description of the internal parameters of the station.
 	The station is the OpenSCADA program.
@@ -95,7 +96,7 @@
 	    <node id="mod_WebCfg">
 		<prm id="SessTimeLife">20</prm>
 	    </node>
-	</node>
+	<node id="mod_VCAEngine"><tbl id="wlb_mylib_incl" /><tbl id="_uio" /><tbl id="wlb_mylib" /><tbl id="_io" /></node></node>
 
     </station>
 </OpenSCADA>

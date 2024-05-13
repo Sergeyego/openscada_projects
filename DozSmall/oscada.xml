@@ -18,7 +18,7 @@
 	    <prm id="SYSStPref">0</prm>
 	    <tbl id="DB">
 		<fld ID="GenDB" TYPE="SQLite" NAME="Main DB" ADDR="St.db" CODEPAGE="UTF-8" />
-	    <fld ID="szsm" TYPE="SQLite" ADDR="szsm.db" EN="1" /><fld ID="sbd" TYPE="PostgreSQL" ADDR="localhost;;user;szsm;doz;5432;2" CODEPAGE="UTF-8" EN="1" /></tbl>
+	    <fld ID="szsm" TYPE="SQLite" ADDR="szsm.db" EN="1" /></tbl>
 	</node>
 
 	<node id="sub_Security">
@@ -51,7 +51,7 @@
 	</node>
 
 	<node id="sub_DAQ">
-	</node>
+	<node id="mod_BlockCalc" /><node id="mod_ModBus" /></node>
 
 	<node id="sub_Archive">
 	    <prm id="MessBufSize">1000</prm>
@@ -61,13 +61,13 @@
 	</node>
 
 	<node id="sub_UI">
-	    <node id="mod_QTStarter">
-		<prm id="StartMod">QTCfg</prm>
+	    <node id="mod_QTStarter"><prm id="SessCntr">3</prm>
+		<prm id="StartMod">Vision</prm>
 		<prm id="CloseToTray">0</prm>
-		<prm id="Style" />
-		<prm id="Font" />
-		<prm id="Palette" />
-		<prm id="StyleSheets" />
+		<prm id="Style"></prm>
+		<prm id="Font"></prm>
+		<prm id="Palette"></prm>
+		<prm id="StyleSheets"></prm>
 		<tbl id="LookFeel">
 		    <fld NAME="Typical TDE">
 			<PALETTE>#000000, #dddfe4, #ffffff, #ffffff, #555555, #c7c7c7, #000000, #ffffff, #000000, #ffffff, #efefef, #000000, #678db2, #ffffff, #0000ee, #52188b
@@ -95,7 +95,7 @@
 	    <node id="mod_WebCfg">
 		<prm id="SessTimeLife">20</prm>
 	    </node>
-	<node id="mod_VCAEngine"><prm id="wlb_doz_uio" /></node></node>
+	<node id="mod_VCAEngine"><tbl id="wlb_doz_uio" /></node></node>
 
     </station>
 </OpenSCADA>

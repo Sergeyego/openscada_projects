@@ -18,7 +18,7 @@
 	    <prm id="SYSStPref">0</prm>
 	    <tbl id="DB">
 		<fld ID="GenDB" TYPE="SQLite" NAME="Main DB" ADDR="St.db" CODEPAGE="UTF-8" />
-	    <fld ID="vcaBase" TYPE="SQLite" ADDR="LibsDB/vcaBase.db" CODEPAGE="UTF-8" EN="1" /><fld ID="OscadaLibs" TYPE="SQLite" ADDR="LibsDB/OscadaLibs.db" CODEPAGE="UTF-8" EN="1" /><fld ID="vcaElectroEls" TYPE="SQLite" ADDR="LibsDB/vcaElectroEls.db" CODEPAGE="UTF-8" EN="1" /><fld ID="szsm" TYPE="SQLite" ADDR="szsm.db" CODEPAGE="UTF-8" EN="1" /><fld ID="arch" TYPE="PostgreSQL" ADDR=";127.0.0.1;user;szsm;oven" CODEPAGE="UTF-8" EN="1" /></tbl>
+	    <fld ID="vcaBase" TYPE="SQLite" ADDR="LibsDB/vcaBase.db" CODEPAGE="UTF-8" EN="1" /><fld ID="OscadaLibs" TYPE="SQLite" ADDR="LibsDB/OscadaLibs.db" CODEPAGE="UTF-8" EN="1" /><fld ID="vcaElectroEls" TYPE="SQLite" ADDR="LibsDB/vcaElectroEls.db" CODEPAGE="UTF-8" EN="1" /><fld ID="szsm" TYPE="SQLite" ADDR="szsm.db" CODEPAGE="UTF-8" EN="1" /><fld ID="arch" TYPE="PostgreSQL" ADDR=";127.0.0.1;user;szsm;oven" CODEPAGE="UTF-8" EN="1" LS_PR="0" TRTM_CLS_ON_OPEN="30" TRTM_CLS_ON_REQ="10" TRPR_CLS_TASK="0" /><fld ID="wire_oven" TYPE="PostgreSQL" ADDR=";127.0.0.1;user;szsm;wire_oven" CODEPAGE="UTF-8" EN="1" LS_PR="0" TRTM_CLS_ON_OPEN="30" TRTM_CLS_ON_REQ="10" TRPR_CLS_TASK="0" /></tbl>
 	</node>
 
 	<node id="sub_Security">

@@ -87,7 +87,7 @@
 		    </fld>
 		</tbl>
 	    </node>
-	    <node id="mod_QTCfg"><prm id="st">800:600:AAAA/wAAAAAAAAACAAAA7gAAAqgBAAAABwEAAAAB</prm>
+	    <node id="mod_QTCfg"><prm id="st">800:600:AAAA/wAAAAEAAAACAAAA7gAAAqgBAAAABwEAAAABAQ==</prm>
 		<prm id="StartUser">root</prm>
 	    </node>
 	    <node id="mod_Vision">
